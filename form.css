@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset{
+    margin: 2em;
+    padding: 1em 2em;
+    border: 1px solid rgb(92, 91, 91);
+    border-radius: 6px;
+    min-width: 300px;
+}
+legend{
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    color: rgb(107, 103, 103);
+}
+label{
+    display: block;
+    margin-top: 1rem;
+}
+.radio label{
+    margin-top: 0;
+   
+}
+.checks label{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+label:first-of-type{
+    margin-top: 0;
+}
+input{
+    padding: 0.5rem;
+    border: 1px solid rgb(153, 152, 152);
+ 
+}
+input[type="text"],input[type="email"]{
+    width: 15rem;
+}
+.dropdown{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+input[type="checkbox"]+label, input[type="radio"]+label{
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 0;
+}
+.checks label{
+    margin-top: 0.7rem;
+    margin-bottom: 0.2em;
+}
+input[type="radio"]{
+    margin-left: 1.5rem;
+    margin-right: 0;
+}
+input[type="radio"]:first-of-type{
+    margin-left: 0;
+}
+input[type="checkbox"]{
+    margin-left: 1.5rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+}
+input[type="checkbox"]:first-of-type{
+    margin-left: 0;
+}
+input[type="submit"]{
+    color: azure;
+    font-size: 1rem;
+    background-color: black;
+}
+@media(min-width:480px){
+    legend{
+        font-size: 2rem;
+    }
+    fieldset{
+        width: 50%;
+        min-width: 400px;
+    }
+    .checks labels{
+        display: inline-block;
+        padding: 0.5rem;
+        margin-top: 0;
+        margin-right: 0.5rem;
+    }
+
+}
+

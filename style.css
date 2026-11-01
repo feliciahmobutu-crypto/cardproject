@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(253, 115, 2);
+    margin: 0px;
+    padding: 0px ;
+    overflow: hidden;
+    
+}
+.navbar a{
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     padding: 1em;
+     display: block;
+     text-align: center;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    background-color: rgb(243, 149, 95);
+}
+.navbar li{
+    float: left;
+}
+h1{
+    text-align: center;
+}
+@media (max-width:480px){
+    nav ul{
+        display: block;
+    }
+    nav ul li{
+        align-items: center;
+    }
+}
+
+
+
+
+

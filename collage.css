@@ -1,0 +1,30 @@
+.par{
+    color:rgb(5, 238, 238);
+}
+.navbar ul{
+    list-style-type: none;   
+    background-color: rgb(41, 40, 40);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar a{
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      padding: 1rem;
+      display: block;
+      text-align: center;
+}
+#kisii{
+    color: rgba(4, 204, 64, 0.966);
+}
+.navbar a:hover{
+     background-color: rgb(66, 65, 65);
+}
+.navbar li{
+    float: left;
+}
+body{
+    background-color: rgb(226, 222, 222);
+    padding: 0px;
+}
